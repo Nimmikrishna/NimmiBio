@@ -614,19 +614,6 @@ progress {
     border-radius: 0;
     width: 50%; 
 }
-.img-logo {
-  -moz-flex-grow: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  -moz-flex-shrink: 1;
-  -webkit-flex-shrink: 1;
-  -ms-flex-shrink: 1;
-  flex-shrink: 1;
-  border-radius: 1;
-  width: 50%; 
-}
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -716,12 +703,18 @@ progress {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: disc; /* Adds bullets to list items */
-  padding-left: 20px; /* Adjusts the left padding for list */
+  list-style: none;
+  text-align: center;
 }
 .skills-container li {
-  width: 50%;
+  width: 25%;
   box-sizing: border-box;
+}
+
+.align_element {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically if needed */
 }
 
 .col {
@@ -914,7 +907,7 @@ progress {
 
 .g-4,
 .gx-4 {
-  --bs-gutter-x: 2rem;
+  --bs-gutter-x: 1.5rem;
 }
 
 .g-4,
@@ -7419,8 +7412,13 @@ textarea.form-control-lg {
 .justify-content-center {
   justify-content: center !important;
 }
+
 .justify-image-left {
   justify-content: left !important;
+}
+.img-column {
+  width: 100%;
+  height: auto;
 }
 .justify-content-right {
   justify-content: right !important;
@@ -10881,7 +10879,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .text-white-75 {
