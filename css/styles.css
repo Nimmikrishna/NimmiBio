@@ -4197,7 +4197,7 @@ textarea.form-control-lg {
   --bs-card-cap-color: ;
   --bs-card-height: ;
   --bs-card-color: ;
-  --bs-card-bg: #fff;
+  --bs-card-bg: #ffffff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
   position: relative;
@@ -11210,13 +11210,13 @@ header.masthead h1, header.masthead .h1 {
   left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
+/* Add arrows to the left container (pointing right)*/
 .left::before {
   content: " ";
   position: absolute;
   top: 18px;
   z-index: 1;
-  right: 30px;
+  right: 10px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent white;
@@ -11228,11 +11228,11 @@ header.masthead h1, header.masthead .h1 {
   position: absolute;
   top: 18px;
   z-index: 1;
-  left: 30px;
+  left: 10px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
-}
+} 
 
 /* Fix the circle for containers on the right side */
 .right::after {
@@ -11278,7 +11278,15 @@ header.masthead h1, header.masthead .h1 {
 }
 .text-yellow {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-yellow-rgb), var(--bs-text-opacity)) !important;
+  color: yellow;
+}
+.text-yellowgreen {
+  --bs-text-opacity: 1;
+  color: yellowgreen;
+}
+.text-cyan {
+  --bs-text-opacity: 1;
+  color: cyan;
 }
 
 .text-black {
