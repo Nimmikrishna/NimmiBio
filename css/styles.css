@@ -11121,6 +11121,12 @@ header.masthead h1, header.masthead .h1 {
 .leftmargin {
   margin-top: 70px; /* Adjust as needed */
 }
+.leftmarginproject {
+  margin-bottom: 70px; /* Adjust as needed */
+}
+.leftmarginsm {
+  margin-top: 20px; /* Adjust as needed */
+}
 
 .btn-primary-custom {
   background-color: #e5f019; /* Customize primary color */
